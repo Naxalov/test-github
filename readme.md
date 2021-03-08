@@ -1,3 +1,3 @@
 # Hello world
 
-- creat main.py
+main
