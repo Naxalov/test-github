@@ -1,0 +1,14 @@
+# github action for python
+name: tut
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.7"
+      - name: Run tests
+        run: python main.py
