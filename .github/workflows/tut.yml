@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: "3.9"
       - name: Run tests
-        run: python main.py
+        run: python3 -m unittest  
