@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       # Checkout the repository
       - name: Checkout the repository
-        uses: actions/checkout@unittest
+        uses: actions/checkout@v2
         with:
           repositor: codeschooluz/Python101-21C
       - name: Install dependencies
