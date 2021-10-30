@@ -6,9 +6,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      # Checkout the repository
+      - name: Checkout the repository
+        uses: actions/checkout@unittest
+        with:
+          repositor: codeschooluz/Python101-21C
       - name: Install dependencies
         uses: actions/setup-python@v2
         with:
           python-version: "3.9"
       - name: Run tests
+      
+          
         run: python3 -m unittest  
+      # list of directory
+      - name: List of directory
+        run: ls -la
