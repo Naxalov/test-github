@@ -1,14 +1,4 @@
-print('hello')
+#Print python version
+import sys
+print(sys.version)
 
-def hi():
-    print('hi')
-
-
-# Multply
-
-# Add
-
-# Sub
-
-
-# Exp
