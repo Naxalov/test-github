@@ -10,7 +10,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repositor: codeschooluz/Python101-21C
+          repository: codeschooluz/Python101-21C
       - name: Install dependencies
         uses: actions/setup-python@v2
         with:
