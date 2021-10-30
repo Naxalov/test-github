@@ -1,4 +1,4 @@
 def func_hi2():
-    return 'codeschooluz'
+    return 'codeschooluz '
 
 print(func_hi2())    
